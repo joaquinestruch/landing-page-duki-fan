@@ -21,7 +21,7 @@ function Header() {
       />
 
       <video
-        src="../public/videos/Monumental3.webm"
+        src="../public/Monumental3.webm"
         autoPlay
         loop
         muted
