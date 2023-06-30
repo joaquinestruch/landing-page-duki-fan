@@ -1,0 +1,29 @@
+.social-media{
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    animation: blur-up-animation 1s ease-in-out;
+}
+
+
+.social-media > *{
+    color: white;
+    margin: auto;
+    
+}
+
+
+@keyframes blur-up-animation {
+    0% {
+      transform: translateY(100%);
+      
+    }
+    100% {
+      transform: translateY(0);
+      filter: blur(0);
+    }
+  }
