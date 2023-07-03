@@ -13,11 +13,12 @@ function Header() {
         <span className="K">K</span>
         <span className="I">I</span>
       </h1>
+      
       <SocialMedia/>
 
       <img
         className={"duki-header"}
-        src={"https://media.discordapp.net/attachments/1108024656973275138/1124262467409821716/image.png?width=1202&height=676"}
+        src={"https://i.ibb.co/w4fR0Vz/duki-web.webp"}
         alt="Duki cantando en un recital"
         
       />
