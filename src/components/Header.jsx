@@ -1,7 +1,9 @@
 
+
 import "../App.css"
 import SocialMedia from "./SocialMedia/SocialMedia";
 function Header() {
+
 
   return (
     <header className="header">
@@ -21,7 +23,7 @@ function Header() {
       />
 
       <video
-        src="../public/Monumental3.webm"
+        src="../monumental3.webm"
         autoPlay
         loop
         muted
