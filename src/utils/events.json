@@ -1,32 +1,267 @@
+
 [
     {
-        "month": "JUL",
-        "day": "6",
-        "name": "Bilbao BBK Live 2023",
-        "href": "https://bilbaobbklive.com/"   
+      "date": "3 de Diciembre",
+      "city": "Buenos Aires",
+      "venue": "Estadio River Plate",
+      "link": "http://allaccess.com.ar/event/duki",
+      "flag": "🇦🇷",
+      "sell": "SOLD OUT"
     },
     {
-        "month": "JUL",
-        "day": "20",
-        "name": "BOOMBASTIC ASTURIAS",
-        "href": "https://www.enterticket.es/eventos/boombastic-asturias-2023-118884"   
+      "date": "2 de Diciembre",
+      "city": "Buenos Aires",
+      "venue": "Estadio River Plate",
+      "link": "http://allaccess.com.ar/event/duki",
+      "flag": "🇦🇷",
+      "sell": "SOLD OUT"
     },
     {
-        "month": "AUG",
-        "day": "17",
-        "name": "BOOMBASTIC ALICANTE",
-        "href": "https://www.enterticket.es/eventos/boombastic-alicante-314488"   
+      "date": "2 de Septiembre",
+      "city": "Malaga",
+      "venue": "Cala Mijas",
+      "link": "https://calamijas.com/",
+      "flag": "🇪🇸",
+      "sell": "COMPRAR AHORA"
     },
     {
-        "month": "AUG",
-        "day": "31",
-        "name": "Cala Mijas 2023",
-        "href": "https://calamijas.com/"   
+      "date": "19 de Agosto",
+      "city": "Cádiz",
+      "venue": "Concert Music Festival",
+      "link": "https://www.ticketmaster.es/event/34267?brand=es_concertmusicfest&camefrom=GLSConcert_Music_Festival_Sancti_Petri&language=es-es&subchannel_id=11800&track=DiscoveryAPI",
+      "flag": "🇪🇸",
+      "sell": "COMPRAR AHORA"
     },
     {
-        "month": "DEC",
-        "day": "2",
-        "name": "Estadio River Plate",
-        "href": "https://www.allaccess.com.ar/event/duki"   
+      "date": "17 de Agosto",
+      "city": "Alicante",
+      "venue": "Boombastic",
+      "link": "https://boombasticfestival.com/alicante-festival/?fbclid=IwAR1vfSkYCbhvgb6GrD5hGnwfyBRW9AURQZe7onrdX38yNC67QQtPZSrX7hQ_aem_AXlX_XgKCXw7RxHRufsWKkIDZrDKNpTyjncx8HpvU7aXDtmDm_XcvMI5IDPSPELHRpo0qT1E32lM_VSh0c2jAEWY57nHOtZ3XCVbL7mh8erHEw",
+      "flag": "🇪🇸",
+      "sell": "COMPRAR AHORA"
+    },
+    {
+      "date": "22 de Julio 2023",
+      "city": "Santander",
+      "venue": "Hoky Music",
+      "link": "https://hokymusic.com/",
+      "flag": "🇪🇸",
+      "sell": "COMPRAR AHORA"
+    },
+    {
+      "date": "20 de Julio 2023",
+      "city": "Asturias",
+      "venue": "Boombastic",
+      "link": "https://boombasticfestival.com/asturias-festival/",
+      "flag": "🇪🇸",
+      "sell": "COMPRAR AHORA"
+    },
+    {
+      "date": "15 de Julio 2023",
+      "city": "Tenerife",
+      "venue": "Ritmos del Mundo",
+      "link": "https://farra.world/entradas/tickets-ritmos-del-mundo/",
+      "flag": "🇪🇸",
+      "sell": "COMPRAR AHORA"
+    },
+    {
+      "date": "07 de Julio 2023",
+      "city": "Bilbao",
+      "venue": "Bilbao BBK Live",
+      "link": "https://www.bilbaobbklive.com/es/tickets-festival/",
+      "flag": "🇪🇸",
+      "sell": "COMPRAR AHORA"
+    },
+    {
+      "date": "29 de Junio 2023",
+      "city": "Valencia",
+      "venue": "Bigsound Festival",
+      "link": "https://www.bigsoundfestival.com/",
+      "flag": "🇪🇸",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "23 de Junio 2023",
+      "city": "Canarias",
+      "venue": "Boombastic",
+      "link": "https://boombasticfestival.com/canarias-festival/",
+      "flag": "🇪🇸",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "17 de Junio 2023",
+      "city": "Sgo Compostela",
+      "venue": "O Son do Camiño",
+      "link": "https://landingpage.osondocamino.es/",
+      "flag": "🇪🇸",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "29 de Mayo 2023",
+      "city": "San Diego",
+      "venue": "House of Blues",
+      "link": "https://www.ticketmaster.com/event/0A005E581AB86945",
+      "flag": "🇺🇸",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "28 de Mayo 2023",
+      "city": "Los Angeles",
+      "venue": "The Wiltern",
+      "link": "https://www.ticketmaster.com/event/09005E58E01E5437",
+      "flag": "🇺🇸",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "25 de Mayo 2023",
+      "city": "Chicago",
+      "venue": "House of Blues",
+      "link": "https://www.ticketmaster.com/event/04005E57F4854358",
+      "flag": "🇺🇸",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "20 de Mayo",
+      "city": "San Juan",
+      "venue": "Sauce Boyz Fest",
+      "link": "#",
+      "flag": "🇵🇷",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "19 de Mayo 2023",
+      "city": "Miami",
+      "venue": "Oasis Wynwood",
+      "link": "https://tixr.com/e/64073",
+      "flag": "🇺🇸",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "17 de Mayo 2023",
+      "city": "New York",
+      "venue": "Palladium Times Square",
+      "link": "https://www.ticketmaster.com/event/00005E58ECAFAF65",
+      "flag": "🇺🇸",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "06 de Mayo 2023",
+      "city": "Montevideo",
+      "venue": "Velódromo",
+      "link": "#",
+      "flag": "🇺🇾",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "28 de Abril 2023",
+      "city": "Rosario",
+      "venue": "Metropolitano",
+      "link": "#",
+      "flag": "🇦🇷",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "14 de Abril 2023",
+      "city": "Cordoba",
+      "venue": "Plaza de la Música",
+      "link": "#",
+      "flag": "🇦🇷",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "8 de Abril 2023",
+      "city": "Guatemala",
+      "venue": "Pepsi Fest",
+      "link": "#",
+      "flag": "🇬🇹",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "7 de Abril 2023",
+      "city": "Costa Rica",
+      "venue": "Festa",
+      "link": "#",
+      "flag": "🇨🇷",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "5 de Abril 2023",
+      "city": "Honduras",
+      "venue": "Pepsi Fest",
+      "link": "#",
+      "flag": "🇭🇳",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "4 de Abril 2023",
+      "city": "El Salvador",
+      "venue": "Pepsi Fest",
+      "link": "#",
+      "flag": "🇸🇻",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "2 de Abril 2023",
+      "city": "Monterrey",
+      "venue": "Festival Pal Norte",
+      "link": "https://www.tecatepalnorte.com/boletos",
+      "flag": "🇲🇽",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "19 de Marzo",
+      "city": "Mexico",
+      "venue": "Vive Latino",
+      "link": "#",
+      "flag": "🇲🇽",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "04 de Marzo 2023",
+      "city": "Barcelona",
+      "venue": "Palau Sant Jordi",
+      "link": "https://www.ticketmaster.es/event/32623",
+      "flag": "🇪🇸",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "03 de Marzo 2023",
+      "city": "Barcelona",
+      "venue": "Palau Sant Jordi",
+      "link": "https://www.ticketmaster.es/event/duki-entradas/31717",
+      "flag": "🇪🇸",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "25 de febrero 2023",
+      "city": "Madrid",
+      "venue": "WiZink Center",
+      "link": "#",
+      "flag": "🇪🇸",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "24 de Febrero 2023",
+      "city": "Madrid",
+      "venue": "WiZink Center",
+      "link": "https://www.ticketmaster.es/event/duki-entradas/31735",
+      "flag": "🇪🇸",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "12 de Febrero 2023",
+      "city": "Santa Cruz",
+      "venue": "Fiesta Nacional del Lago",
+      "link": "#",
+      "flag": "🇦🇷",
+      "sell": "SOLD OUT"
+    },
+    {
+      "date": "18 de Febrero 2023",
+      "city": "Neuquen",
+      "venue": "Festival Confluencia",
+      "link": "#",
+      "flag": "🇦🇷",
+      "sell": "SOLD OUT"
     }
-]
+  ]

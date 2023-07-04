@@ -1,24 +1,15 @@
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect, useState } from "react";
-import { getFechas } from "../scripts/getFechas";
+import { useEffect } from "react";
 import Fechas from "./Fechas";
 
 
 
 function SegundaPagina() {
 
-  const [fechas, setFechas] = useState([])
-
   useEffect(() => {
     
-    async function getData(){
-      setFechas(await getFechas())
-      
-    }; 
-    getData()
-  
     AOS.init(); 
     AOS.refresh();
     return () => {
@@ -32,7 +23,7 @@ function SegundaPagina() {
       <div className="fechas-eventos">
         <h2  data-aos="fade-down"  data-aos-once="true" className="">FECHAS</h2>
         
-        <Fechas fechas={fechas}></Fechas>
+        <Fechas></Fechas>
         
       </div>
 

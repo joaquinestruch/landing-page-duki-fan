@@ -1,0 +1,76 @@
+
+a{
+    font-family: 'Staatliches', sans-serif;
+    font-weight: bold;
+    position: relative;
+  }
+  
+.soldout::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 100%; 
+    width: 50px; 
+    height: 50px; 
+    background-image: url("https://i.ibb.co/D5Pt2w3/ala-diablol.webp"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scaleX(-1); 
+    opacity: 0;
+    transition: opacity 0.3s;
+    
+  }
+  
+.soldout::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: 100%;
+    width: 50px;
+    height: 50px;
+    background-image: url("https://i.ibb.co/D5Pt2w3/ala-diablol.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+.soldout:hover::before, a:hover::after {
+    opacity: 1;
+}
+  
+
+.comprar::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 100%; 
+    width: 50px; 
+    height: 50px; 
+    background-image: url("https://i.ibb.co/cJdWQLy/angel.webp"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scaleX(-1); 
+    opacity: 0;
+    transition: opacity 0.3s;
+    
+  }
+  
+.comprar::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: 100%;
+    width: 50px;
+    height: 50px;
+    background-image: url("https://i.ibb.co/cJdWQLy/angel.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+.comprar:hover::before, a:hover::after {
+    opacity: 1;
+}
+  
