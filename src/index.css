@@ -4,6 +4,7 @@ html, body{
     cursor: url('https://media.discordapp.net/attachments/1108024656973275138/1124262391107031151/image.png'), auto;
 }
 
-*::selection{
-    background-color: rgb(147, 88, 202);
-}
+/* *::selection{
+    background-color: red;
+    
+} */

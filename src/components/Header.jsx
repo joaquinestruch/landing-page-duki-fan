@@ -1,10 +1,16 @@
 import "../App.css";
 import SocialMedia from "./SocialMedia/SocialMedia";
+import DukiAlert from "./BandasRojas/DukiAlert";
+
+
+
+
 function Header() {
 
   return (
     <header className="header" style={{ backgroundColor: "transparent" }}>
       
+
       <h1 className="titulo">
         <span className="D">D</span>
         <span className="U">U</span>

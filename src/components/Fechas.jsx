@@ -13,12 +13,12 @@ function Fechas() {
         
         return (
           <li data-aos="fade-up"  data-aos-once="true" className="event-list-day" key={crypto.randomUUID()}>
-            <span className="event-date">{date}</span>
+            <span className="event-date">{date.toUpperCase()}</span>
             <span className="event-city" >
-              {city}
+              {city.toUpperCase()}
               <span className={`fi fi-${getCountryCodeFromFlagEmoji(flag).toLowerCase()}`}></span> 
             </span>
-            <span className="event-venue">{venue}</span>
+            <span className="event-venue">{venue.toUpperCase()}</span>
             <a href={link} className={`event-link ${sell === "SOLD OUT" ? "soldout" : "comprar"}`}>
               {`${sell}!`}
             </a>
