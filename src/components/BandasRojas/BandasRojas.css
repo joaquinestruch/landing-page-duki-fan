@@ -1,6 +1,66 @@
-.bandas-rojas{
+.slider-container {
+    width: 100vw;
+    overflow: hidden;
     background-color: red;
-    width: 100%;
+    font-size: 1.3rem;
+    font-weight: bold;
     z-index: 2;
+    font-family: 'AzoSansWebLight', Fallback, sans-serif;
+  }
+  
+  .slider {
+    display: flex;
+    animation: slider-animation 10s infinite linear;
+    white-space: nowrap; 
+  }
+  
+  .slide {
+    flex: 0 0 100vw;
+  }
+  
+  @keyframes slider-animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%); 
+    }
+  }
+
+  @keyframes fade-down-animation {
+    0% {
+      
+      transform: translateY(100%);
+    }
+    50% {
+    
+      transform: translateY(0);
+    }
+    100% {
+      
+        transform: translateY(0);
+    }
+  }
+  
+  @keyframes fade-up-animation {
+    0% {
+      
+      transform: translateY(-100%);
+    }
+    50% {
+      
+      transform: translateY(0);
+    }
+    100% {
+      
+        transform: translateY(0);
+    }
+  }
+
+.up{
+    animation: fade-up-animation 1s normal;
 }
 
+.down{
+    animation: fade-down-animation 1s normal;
+}
