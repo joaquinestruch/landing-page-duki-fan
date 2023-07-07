@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <footer>
-      <a href="https://instagram.com/lauriaent">
+      <a href="https://www.instagram.com/livedaleplay/">
         <img
           src="https://duki.com.ar/wp-content/uploads/2023/01/DPM-214x36px.png"
           alt="Dale Play Managment"

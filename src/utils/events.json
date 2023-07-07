@@ -1,6 +1,14 @@
 
 [
     {
+      "date": "8 de Junio 2024",
+      "city": "Madrid",
+      "venue": "Estadio Santiago Bernabéu",
+      "link": "https://www.ticketmaster.es/event/duki-entradas/36451",
+      "flag": "🇪🇸",
+      "sell": "COMPRAR AHORA"
+    },
+    {
       "date": "3 de Diciembre",
       "city": "Buenos Aires",
       "venue": "Estadio River Plate",

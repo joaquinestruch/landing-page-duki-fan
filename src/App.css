@@ -104,6 +104,9 @@ header > .titulo > span.I {
   
 }
 
+.duki-header{
+  max-height: 95%;
+}
 
 
 @keyframes blur-up-animation {
@@ -127,7 +130,7 @@ header > .titulo > span.I {
   }
 }
 
-.header video {
+.header video, .imgs-fondo {
   position: absolute;
   top: 0;
   left: 0;
@@ -136,12 +139,19 @@ header > .titulo > span.I {
   object-fit: cover;
   z-index: -1;
   object-position: 10%;
-  background-image: url("https://i.ibb.co/X88FXvc/xd-copia.webp");
+  /* background-image: url("https://i.ibb.co/X88FXvc/xd-copia.webp"); */
   background-size: cover;
   background-position-y: 100%;
   background-repeat: no-repeat;
 }
 
+
+.imgs-fondo > img{
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  
+}
 
 
 .segunda-pagina {
@@ -276,7 +286,6 @@ h2 {
   justify-content: space-between;
 
 }
-
 
 
 

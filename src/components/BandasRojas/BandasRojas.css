@@ -1,7 +1,7 @@
 .slider-container {
     width: 100vw;
     overflow: hidden;
-    background-color: red;
+    background-color: #e33636;
     font-size: 1.3rem;
     font-weight: bold;
     z-index: 2;
