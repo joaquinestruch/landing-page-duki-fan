@@ -23,7 +23,6 @@ h2 {
 }
 
 
-
 .header {
 
   position: relative;
@@ -95,13 +94,20 @@ header > .titulo > span.I {
   position: absolute;
   bottom: 0;
   height: 100%;
-  animation: blur-up-animation 0.8s ease-in-out;
   z-index: 1;
   overflow: hidden;
   transition: top 0.3s ease-out;
 
 
   
+}
+
+.animate-image{
+  animation: blur-up-animation 0.8s ease-in-out;
+}
+
+.hidden{
+  display: none;
 }
 
 .duki-header{

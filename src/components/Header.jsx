@@ -1,11 +1,17 @@
 import "../App.css";
 import SocialMedia from "./SocialMedia/SocialMedia";
 import DukiAlert from "./BandasRojas/DukiAlert";
-
+import { useState } from "react";
 
 
 
 function Header() {
+
+  const [isLoading, setIsLoading] = useState(true); 
+
+  const handleImageLoad = () => {
+    setIsLoading(false);
+  };
 
   return (
     <header className="header" style={{ backgroundColor: "transparent" }}>
@@ -19,11 +25,12 @@ function Header() {
         <span className="I">I</span>
       </h1> */}
 
-    
+
        <img
-        className={"duki-header"}
+        className={`duki-header ${isLoading ? 'hidden' : 'animate-image'}`}
         src={"https://i.ibb.co/LCqKVbg/duki3.png"}
         alt="Duki cantando en un recital"
+        onLoad={handleImageLoad}
       />  
 
     
