@@ -13,7 +13,6 @@ function App() {
     <div className="non-scrollable-container">
     <Header />
     </div>
-
     
   </div>
   <div className="snap-center h-full vh-screen">
