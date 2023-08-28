@@ -8,8 +8,6 @@ function App() {
   return (
 <div className="snap-y snap-mandatory">
   <div className="snap-center h-full vh-screen">
-
-
     <div className="non-scrollable-container">
     <Header />
     </div>
