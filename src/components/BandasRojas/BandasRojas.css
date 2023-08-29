@@ -6,16 +6,21 @@
     font-weight: bold;
     z-index: 2;
     font-family: 'AzoSansWebLight', Fallback, sans-serif;
+    
   }
   
   .slider {
     display: flex;
     animation: slider-animation 10s infinite linear;
-    white-space: nowrap; 
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   
   .slide {
     flex: 0 0 100vw;
+    
   }
   
   @keyframes slider-animation {
